@@ -37,11 +37,11 @@ NnsProposal:
 
       **II. Governance**
 
-      The governance model includes staking, voting, and other relevant details. The minimum amount of SNS tokens to stake a neuron is 50 tokens. The minimum dissolve delay a neuron must have to be able to cast votes on proposals is 3 months and the maxmimum dissolve delay is 1 year.
+      The governance model includes staking, voting, and other relevant details. The minimum amount of SNS tokens to stake a neuron is 200 tokens. The minimum dissolve delay a neuron must have to be able to cast votes on proposals is 3 months and the maximum dissolve delay is 1 year.
 
       Decentralization Sale
-      * Min participation -  1 ICP
-      * Max participants -  100
+      * Min participation -  3 ICP
+      * Min participants -  100
       * Min to be raised -  100,000 ICP
       * Max to be raised -  500,000 ICP
 
@@ -59,13 +59,15 @@ NnsProposal:
       * [Whitepaper](https://yuku.app/whitepaper )
       * [Github](https://github.com/yukuapp )
       * [Product](https://yuku.app/ )
-      * [Product video](https://youtu.be/bTcQA9k50nk?si=e7Nh_xAIvjLEnLwn)
+      * [Product video](https://youtu.be/bTcQA9k50nk?si=e7Nh_xAIvjLEnLwn )
 
 # If the SNS launch attempt fails, control over the dapp canister(s) is given to
 # these principals. In most use cases, this is chosen to be the original set of
 # controller(s) of the dapp. Must be a list of PrincipalIds.
 fallback_controller_principals:
     - imwzs-x6b7k-hqsih-uw7gv-tp22v-mjf6f-7bddh-acqfm-e3sxf-sqqly-vqe
+    - h3nxl-6trw3-ugins-bfgpj-jbtbx-hg2si-v74mn-rg2ny-rsl3g-vfktm-pae
+    - 6vatw-256w7-b4cy5-562mf-vtv5l-shaj6-x6yr4-mdpsc-ccjw4-yuini-mae
 
 # The list of dapp canister(s) that will be decentralized if the decentralization swap succeeds. 
 dapp_canisters:
@@ -114,7 +116,7 @@ Proposals:
 Neurons:
     # The minimum amount of SNS tokens to stake a neuron. This field is specified
     # as a token. For instance, "1 token".
-    minimum_creation_stake: 10 tokens
+    minimum_creation_stake: 200 tokens
 
 # Configuration of SNS voting.
 Voting:
@@ -126,7 +128,7 @@ Voting:
     #
     # Users cannot access the SNS tokens used to stake neurons (until the neuron
     # is dissolved). This field is specified as a duration. For example: "6 months".
-    minimum_dissolve_delay: 3 month
+    minimum_dissolve_delay: 3 months
 
     # Configuration of voting power bonuses that are applied to neurons to
     # incentivize alignment with the best interest of the DAO. Note, these
@@ -243,7 +245,7 @@ Distribution:
         # For the actual SNS launch, you should replace this with one or more
         # principals of your intended genesis neurons.
         #
-        # For team vesting over 3 years in multiple tranches.
+        # For team vesting over 2 years in multiple tranches.
         #team
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_666 tokens
@@ -729,11 +731,9 @@ Distribution:
 
     #Error: The sum of all developer allocated tokens must be less than or equal to swap_distribution.total_e8s
     # Checksum of the total number of tokens distributed in this section.
-    #     37.5 million      (dev neuron) 
-    #     7.5 million       (initial investor)
-    #     142.5 million     (governance)
-    # +   62.5 million      (swap)
-    # --------------
+    #     170 million     (developer neuron) 
+    #     660 million     (governance)
+    #     170 million     (swap)
     total: 1_000_000_000 tokens
 
 # Configuration of the decentralization swap parameters. Choose these parameters
@@ -765,7 +765,7 @@ Swap:
     # The minimum amount of ICP that each participant must contribute
     # to participate. This field is specified as a token. For instance,
     # "1 token".
-    minimum_participant_icp: 1 tokens
+    minimum_participant_icp: 3 tokens
 
     # The maximum amount of ICP that each participant may contribute
     # to participate. This field is specified as a token. For instance,
@@ -788,7 +788,12 @@ Swap:
     #
     # Each list element must be an ISO 3166-1 alpha-2 country code.
     restricted_countries:
-    
+      - IR # IRAN
+      - KP # NORTH KOREA
+      - CU # Cuba
+      - SY # Syrian Arab Republic
+
+
 
     # Configuration of the vesting schedule of the neuron basket, i.e., the SNS
     # neurons that a participants will receive from a successful
