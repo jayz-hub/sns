@@ -49,8 +49,8 @@ NnsProposal:
       **III. The DApp**
 
       Yuku consists of a set of canister smart contracts, with the SNS directly controlling the following canisters
-      * ajy76-hiaaa-aaaah-aa3mq-cai
-      * o2qzt-caaaa-aaaah-abhsa-cai
+      * udtw4-baaaa-aaaah-abc3q-cai
+      * pczmq-maaaa-aaaah-abhwa-cai
 
 
       **IV. Verification**
@@ -72,9 +72,9 @@ fallback_controller_principals:
 # The list of dapp canister(s) that will be decentralized if the decentralization swap succeeds. 
 dapp_canisters:
     #Explore canister
-    - ajy76-hiaaa-aaaah-aa3mq-cai
+    - udtw4-baaaa-aaaah-abc3q-cai
     #Launchpad canister
-    - o2qzt-caaaa-aaaah-abhsa-cai
+    - pczmq-maaaa-aaaah-abhwa-cai
 
 
 # Configuration of SNS tokens in the SNS Ledger canister deployed as part
