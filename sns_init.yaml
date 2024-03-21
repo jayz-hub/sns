@@ -1,4 +1,4 @@
-name: Yuku
+name: Yuku DAO
 
 # SNS configuration of Yuku DAO
 
@@ -49,8 +49,8 @@ NnsProposal:
       **III. The DApp**
 
       Yuku consists of a set of canister smart contracts, with the SNS directly controlling the following canisters
-      * udtw4-baaaa-aaaah-abc3q-cai
-      * pczmq-maaaa-aaaah-abhwa-cai
+      * udtw4-baaaa-aaaah-abc3q-cai (Explore canister)
+      * pczmq-maaaa-aaaah-abhwa-cai (Launchpad canister)
 
 
       **IV. Verification**
@@ -82,7 +82,7 @@ dapp_canisters:
 Token:
     # The name of the token issued by the SNS ledger.
     # Must be a string of 4 to 255 bytes without leading or trailing spaces.
-    name: Yuku
+    name: YukuDAO
 
     # The symbol of the token issued by the SNS Ledger.
     # Must be a string of 3 to 10 bytes without leading or trailing spaces.
@@ -108,7 +108,7 @@ Proposals:
     # may be increased during its lifecycle due to the wait-for-quiet algorithm
     # (see details below). This field is specified as a duration. For example
     # "4 days".
-    initial_voting_period: 4 days
+    initial_voting_period: 3 days
 
     maximum_wait_for_quiet_deadline_extension: 1 day
 
@@ -383,7 +383,7 @@ Distribution:
           dissolve_delay: 3 months
           vesting_period: 24 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
-          stake: 1_666_666 tokens
+          stake: 1_666_166 tokens
           memo: 27
           dissolve_delay: 3 months
           vesting_period: 0 months
@@ -717,6 +717,12 @@ Distribution:
           memo: 93
           dissolve_delay: 0 months
           vesting_period: 24 months
+        - principal: h77xz-dinyi-o73ca-gvzkj-flqwm-j6rqh-g5hel-wwp3i-obnov-rftza-bqe
+          stake: 500 tokens
+          memo: 94
+          dissolve_delay: 0 months
+          vesting_period: 0 months
+
     # The initial SNS token balances of the various canisters of the SNS.
     InitialBalances:
         # The initial SNS token balance of the SNS Governance canister is known
