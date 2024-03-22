@@ -537,9 +537,9 @@ Distribution:
 
     #Error: The sum of all developer allocated tokens must be less than or equal to swap_distribution.total_e8s
     # Checksum of the total number of tokens distributed in this section.
-    #     170 million     (developer neuron) 
-    #     660 million     (governance)
-    #     170 million     (swap)
+    #     90 million     (developer neuron) 
+    #     820 million     (governance)
+    #     90 million     (swap)
     total: 1_000_000_000 tokens
 
 # Configuration of the decentralization swap parameters. Choose these parameters
