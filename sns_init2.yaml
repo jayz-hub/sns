@@ -410,12 +410,12 @@ Distribution:
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
           memo: 32
-          dissolve_delay: 2 months
+          dissolve_delay: 3 months
           vesting_period: 15 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
           memo: 33
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
