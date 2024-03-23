@@ -18,7 +18,7 @@ url: https://yuku.app/
 # shown only in the NNS proposal.
 NnsProposal:
     # The title of the NNS proposal. Must be a string of 4 to 256 bytes.
-    title: "NNS Proposal to create an SNS named 'Yuku'"
+    title: "NNS Proposal to create an SNS named 'Yuku DAO'"
 
     # The HTTPS address of additional content required to evaluate the NNS
     # proposal.
