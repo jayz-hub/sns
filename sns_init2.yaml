@@ -280,7 +280,7 @@ Distribution:
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_667 tokens
           memo: 6
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_667 tokens
@@ -325,7 +325,7 @@ Distribution:
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_667 tokens
           memo: 15
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_667 tokens
@@ -370,7 +370,7 @@ Distribution:
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_667 tokens
           memo: 24
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_667 tokens
@@ -410,7 +410,7 @@ Distribution:
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
           memo: 32
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 15 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
@@ -460,7 +460,7 @@ Distribution:
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_667 tokens
           memo: 42
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_667 tokens
@@ -505,7 +505,7 @@ Distribution:
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_667 tokens
           memo: 51
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_667 tokens
