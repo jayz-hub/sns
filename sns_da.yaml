@@ -92,7 +92,7 @@ Distribution:
           stake: "35_000_000 tokens"
           memo: 0
           dissolve_delay: "0 months"
-          vesting_period: "2 months"
+          vesting_period: "3 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "25_000_000 tokens"
           memo: 1
@@ -102,7 +102,7 @@ Distribution:
           stake: "30_000_000 tokens"
           memo: 2
           dissolve_delay: "6 months"
-          vesting_period: "12 months"
+          vesting_period: "9 months"
    
     InitialBalances:
         governance: 820_000_000 tokens
