@@ -5,7 +5,7 @@ description: >
 
 logo: kong_logo_new.png
 
-url: https://www.kongswap.io/
+url: https://stratros.ai/
 
 NnsProposal:
     title: "NNS Proposal to create an SNS named 'StratrosAI'"
@@ -23,8 +23,6 @@ NnsProposal:
 
       **II. Governance**
 
-      The governance model includes staking, voting, and other relevant details. The minimum amount of SNS tokens to stake a neuron is 50 tokens. The minimum dissolve delay a neuron must have to be able to cast votes on proposals is 3 months and the maximum dissolve delay is 1 year.
-
       Decentralization Sale
       * Min participation - 3 ICP
       * Min participants -  100
@@ -34,7 +32,7 @@ NnsProposal:
 
       **III. The DApp**
 
-      STS consists of a set of canister smart contracts, with the SNS directly controlling the following canisters
+      STAI consists of a set of canister smart contracts, with the SNS directly controlling the following canisters
       * udtw4-baaaa-aaaah-abc3q-cai (Explore canister)
       * pczmq-maaaa-aaaah-abhwa-cai (Launchpad canister)
 
@@ -44,7 +42,7 @@ NnsProposal:
       The above details can be verified through:
       * [Whitepaper](https://stratros.ai/StratrosAI.pdf )
       * [Github](https://github.com/Stratros-AI )
-      * [Website](https://stratros.ai/StratrosAI.pdf )
+      * [Website](https://stratros.ai/ )
 
 fallback_controller_principals:
     - 4jxje-hbmra-4otqc-6hor3-cpwlh-sqymk-6h4ef-42sqn-o3ip5-s3mxk-uae
