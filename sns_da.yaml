@@ -117,8 +117,6 @@ Swap:
     confirmation_text: >
       I confirm my understanding of the responsibilities and risks associated with participating in this token swap.
 
-    restricted_countries:
-
     VestingSchedule:
         events: 3
         interval: 3 months
