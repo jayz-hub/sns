@@ -118,31 +118,6 @@ Swap:
       I confirm my understanding of the responsibilities and risks associated with participating in this token swap.
 
     restricted_countries:
-        - AF  
-        - BY
-        - BA
-        - BI
-        - CF
-        - KP
-        - CD
-        - CU
-        - IR
-        - IQ
-        - LB
-        - LY
-        - ML
-        - ME
-        - MM
-        - NI
-        - RU
-        - RS
-        - SO
-        - SD
-        - SY
-        - UA
-        - VE
-        - YE
-        - ZW
 
     VestingSchedule:
         events: 3
