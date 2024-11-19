@@ -1,31 +1,50 @@
-name: KongSwap
+name: StratrosAI
 
 description: >
-    The one stop token shop - Trade tokens across all chains with ease using KongSwap
+    StratrosAI is a decentralized AI operating system specifically built to support and scale complex AI workloads on the blockchain. By combining decentralized data availability (DA), decentralized storage, cross-chain interoperability, and innovative restaking functionality, StratrosAI is pioneering the next generation of decentralized AI services. Our platform creates a seamless environment for AI projects to thrive, driving innovation and optimizing asset utility and rewards within the ecosystem.
 
 logo: kong_logo_new.png
 
 url: https://www.kongswap.io/
 
 NnsProposal:
-    title: "NNS Proposal to create an SNS named 'KongSwap'"
-    url: https://forum.dfinity.org/t/introducing-kongswap/35607
+    title: "NNS Proposal to create an SNS named 'StratrosAI'"
+    url: https://forum.dfinity.org/t/upcoming-stratrosai-dao-sns-decentralization-sale/37447
 
     summary:  |
-      Proposal to create an SNS for the project KongSwap.
-        The SNS will be initialized with the following parameters:
-        - Total KONG supply: 1_000_000_000
-        - 220_000_000 Public Sale, 200_000_000 Dev Neuron, 580_000_000 treasury
-        - ICP to raise min: 100_000 ICP
-        - ICP to raise max: 350_000 ICP (With NF 469_048 ICP)
-        - Min number of tokens per contributor: 1 ICP
-        - Max number of tokens per contributor: 100_000 ICP
-        - Min number of participants: 100
+      **I. Token Distribution**
 
-        Learn more:
-        - https://www.kongswap.io/
-        - https://github.com/KongSwap/documentation/blob/main/kong_whitepaper.md
-        - https://github.com/KongSwap
+      * Total token supply -  1 Billion
+      * Allocated to treasury -  82%
+      * Allocated to decentralization sale -  9%
+      * Allocated to developer neurons -  9%
+      * The Ledger Transaction fee is 0.001 STS
+
+
+      **II. Governance**
+
+      The governance model includes staking, voting, and other relevant details. The minimum amount of SNS tokens to stake a neuron is 50 tokens. The minimum dissolve delay a neuron must have to be able to cast votes on proposals is 3 months and the maximum dissolve delay is 1 year.
+
+      Decentralization Sale
+      * Min participation - 3 ICP
+      * Min participants -  100
+      * Min to be raised -  20,000 ICP
+      * Max to be raised -  150,000 ICP
+
+
+      **III. The DApp**
+
+      STS consists of a set of canister smart contracts, with the SNS directly controlling the following canisters
+      * udtw4-baaaa-aaaah-abc3q-cai (Explore canister)
+      * pczmq-maaaa-aaaah-abhwa-cai (Launchpad canister)
+
+
+      **IV. Verification**
+
+      The above details can be verified through:
+      * [Whitepaper](https://stratros.ai/StratrosAI.pdf )
+      * [Github](https://github.com/Stratros-AI )
+      * [Website](https://stratros.ai/StratrosAI.pdf )
 
 fallback_controller_principals:
     - 4jxje-hbmra-4otqc-6hor3-cpwlh-sqymk-6h4ef-42sqn-o3ip5-s3mxk-uae
@@ -38,9 +57,9 @@ dapp_canisters:
 
 
 Token:
-    name: KongSwap
+    name: StratrosAI
 
-    symbol: KONG
+    symbol: STAI
 
     transaction_fee: 10_000 e8s
 
@@ -79,12 +98,12 @@ Distribution:
     Neurons:
 
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
-          stake: "30_000_000 tokens"
+          stake: "35_000_000 tokens"
           memo: 0
           dissolve_delay: "0 months"
           vesting_period: "2 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
-          stake: "30_000_000 tokens"
+          stake: "25_000_000 tokens"
           memo: 1
           dissolve_delay: "3 months"
           vesting_period: "6 months"
@@ -110,6 +129,9 @@ Swap:
     minimum_participant_icp: 3 tokens
 
     maximum_participant_icp: 100_000 tokens
+
+    confirmation_text: >
+      I confirm my understanding of the responsibilities and risks associated with participating in this token swap.
 
     restricted_countries:
         - AF  
