@@ -54,7 +54,7 @@ Token:
 
     transaction_fee: 10_000 e8s
 
-    logo: kong_logo_new.png
+    logo: logo.png
 
 Proposals:
     rejection_fee: 10 token
