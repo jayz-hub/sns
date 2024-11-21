@@ -66,11 +66,11 @@ Voting:
     MaximumVotingPowerBonuses:
         DissolveDelay:
             duration: 12 months
-            bonus: 150%
+            bonus: 50%
 
         Age:
             duration: 24 months
-            bonus: 200%
+            bonus: 100%
 
     RewardRate:
         initial: 0.1%
@@ -89,7 +89,7 @@ Distribution:
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
           memo: 1
-          dissolve_delay: "1 months"
+          dissolve_delay: "0 months"
           vesting_period: "3 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
@@ -129,8 +129,8 @@ Swap:
       I confirm my understanding of the responsibilities and risks associated with participating in this token swap.
 
     VestingSchedule:
-        events: 6
-        interval: 1 months
+        events: 3
+        interval: 3 months
 
     duration: 14 days
 
