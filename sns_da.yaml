@@ -21,7 +21,7 @@ NnsProposal:
 
       **Decentralization Sale**
       * Min participation - 1 ICP
-      * Min participants -  20
+      * Min participants -  100
       * Min to be raised -  20,000 ICP
       * Max to be raised -  150,000 ICP
 
@@ -115,7 +115,7 @@ Distribution:
     total: 1_000_000_000 tokens
 
 Swap:
-    minimum_participants: 20
+    minimum_participants: 100
 
     minimum_direct_participation_icp: 20_000 tokens
 
