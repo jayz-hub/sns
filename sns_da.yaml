@@ -94,7 +94,7 @@ Distribution:
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
           memo: 2
-          dissolve_delay: "1 months"
+          dissolve_delay: "0 months"
           vesting_period: "6 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
