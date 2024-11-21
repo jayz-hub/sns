@@ -84,7 +84,7 @@ Distribution:
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
           memo: 0
-          dissolve_delay: "1 months"
+          dissolve_delay: "0 months"
           vesting_period: "0 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
@@ -94,7 +94,7 @@ Distribution:
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
           memo: 2
-          dissolve_delay: "0 months"
+          dissolve_delay: "1 months"
           vesting_period: "6 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
           stake: "18_000_000 tokens"
@@ -109,13 +109,13 @@ Distribution:
         
    
     InitialBalances:
-        governance: 790_000_000 tokens
+        treasury: 790_000_000 tokens
         swap: 120_000_000 tokens
 
     total: 1_000_000_000 tokens
 
 Swap:
-    minimum_participants: 100
+    minimum_participants: 20
 
     minimum_direct_participation_icp: 20_000 tokens
 
