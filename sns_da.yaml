@@ -82,20 +82,31 @@ Distribution:
     Neurons:
 
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
-          stake: "35_000_000 tokens"
+          stake: "18_000_000 tokens"
           memo: 0
           dissolve_delay: "1 months"
           vesting_period: "0 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
-          stake: "25_000_000 tokens"
+          stake: "18_000_000 tokens"
           memo: 1
           dissolve_delay: "1 months"
           vesting_period: "3 months"
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
-          stake: "30_000_000 tokens"
+          stake: "18_000_000 tokens"
           memo: 2
           dissolve_delay: "1 months"
           vesting_period: "6 months"
+        - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
+          stake: "18_000_000 tokens"
+          memo: 3
+          dissolve_delay: "1 months"
+          vesting_period: "9 months"
+        - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
+          stake: "18_000_000 tokens"
+          memo: 4
+          dissolve_delay: "1 months"
+          vesting_period: "12 months"
+        
    
     InitialBalances:
         governance: 820_000_000 tokens
