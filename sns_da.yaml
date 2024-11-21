@@ -14,14 +14,14 @@ NnsProposal:
     summary:  |
       **Token Distribution**
       * Total token supply -  1 Billion
-      * Allocated to treasury -  82%
-      * Allocated to decentralization sale -  9%
+      * Allocated to treasury -  79%
+      * Allocated to decentralization sale -  12%
       * Allocated to developer neurons -  9%
-      * The Ledger Transaction fee is 0.001 STAI
+      * The Ledger Transaction fee is 0.0001 STAI
 
       **Decentralization Sale**
       * Min participation - 1 ICP
-      * Min participants -  100
+      * Min participants -  20
       * Min to be raised -  20,000 ICP
       * Max to be raised -  150,000 ICP
 
