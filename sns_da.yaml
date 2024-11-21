@@ -50,7 +50,7 @@ Token:
     logo: logo.png
 
 Proposals:
-    rejection_fee: 10 token
+    rejection_fee: 1000 token
 
     initial_voting_period: 4 days
 
