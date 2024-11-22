@@ -12,11 +12,11 @@ NnsProposal:
     url: https://forum.dfinity.org/t/upcoming-stratrosai-dao-sns-decentralization-sale/37447
 
     summary:  |
-      **Token Distribution**
+      **Distribution**
       * Total token supply -  1 Billion
-      * Allocated to treasury -  79%
+      * Allocated to treasury -  78%
       * Allocated to decentralization sale -  12%
-      * Allocated to developer neurons -  9%
+      * Allocated to developer neurons -  10%
       * The Ledger Transaction fee is 0.0001 STAI
 
       **Decentralization Sale**
@@ -31,26 +31,24 @@ NnsProposal:
       * [Website](https://stratros.ai/ )
 
 fallback_controller_principals:
-    - 4jxje-hbmra-4otqc-6hor3-cpwlh-sqymk-6h4ef-42sqn-o3ip5-s3mxk-uae
-    - 6rjil-isfbu-gsmpe-ffvcl-v3ifl-xqgkr-en2ir-pbr54-cetku-syp4i-bae
-    - yayvm-khskc-ey4hp-xrclk-r3xdi-pwqdr-wggkm-hbxyi-j2wn6-7mnx5-qae
- 
+    - ytoqu-ey42w-sb2ul-m7xgn-oc7xo-i4btp-kuxjc-b6pt4-dwdzu-kfqs4-nae
+
 dapp_canisters:
-    - 2ipq2-uqaaa-aaaar-qailq-cai
-    - 3ldz4-aiaaa-aaaar-qaina-cai
+    - r34pn-oaaaa-aaaak-qinga-cai
+    - hxctj-oiaaa-aaaap-qhltq-cai
 
 
 Token:
     name: StratrosAI
 
-    symbol: STAI
+    symbol: STOS
 
     transaction_fee: 10_000 e8s
 
     logo: logo.png
 
 Proposals:
-    rejection_fee: 1000 token
+    rejection_fee: 1_000 token
 
     initial_voting_period: 4 days
 
@@ -82,7 +80,7 @@ Distribution:
     Neurons:
 
         - principal: "vajnc-v7ty5-nvnv5-xnbob-jd6yb-slvrm-iy3z7-fu7rl-2z2ye-dmeer-fqe"
-          stake: "20_000_000 tokens"
+          stake: "19_999_500 tokens"
           memo: 0
           dissolve_delay: "0 months"
           vesting_period: "0 months"
@@ -106,6 +104,12 @@ Distribution:
           memo: 4
           dissolve_delay: "1 months"
           vesting_period: "12 months"
+        - principal: "akuw5-p4lnw-mvpxz-srfw2-chbg2-uh7i3-j2qn7-gf5dc-onz3z-hm4pc-fae"
+          stake: "500 tokens"
+          memo: 5
+          dissolve_delay: "0 months"
+          vesting_period: "0 months"
+        
         
    
     InitialBalances:
